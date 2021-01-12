@@ -1,19 +1,19 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld/>
+      <Certificado/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Certificado from './components/Certificado';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    Certificado,
   },
 
   data: () => ({
